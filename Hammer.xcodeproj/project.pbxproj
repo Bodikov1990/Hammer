@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		12921A1829DBF41A00FD61F8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 12921A1729DBF41A00FD61F8 /* Kingfisher */; };
+		12921A1B29DC17B000FD61F8 /* Extension + Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12921A1A29DC17B000FD61F8 /* Extension + Collection.swift */; };
 		12FDDF2A29DB0C4C00DA90BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF2929DB0C4C00DA90BB /* AppDelegate.swift */; };
 		12FDDF3429DB0C4C00DA90BB /* Hammer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF3229DB0C4C00DA90BB /* Hammer.xcdatamodeld */; };
 		12FDDF3629DB0C4E00DA90BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FDDF3529DB0C4E00DA90BB /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12921A1A29DC17B000FD61F8 /* Extension + Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Collection.swift"; sourceTree = "<group>"; };
 		12FDDF2629DB0C4C00DA90BB /* Hammer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hammer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FDDF2929DB0C4C00DA90BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12FDDF3329DB0C4C00DA90BB /* Hammer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hammer.xcdatamodel; sourceTree = "<group>"; };
@@ -79,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12921A1929DC175B00FD61F8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12921A1A29DC17B000FD61F8 /* Extension + Collection.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		12FDDF1D29DB0C4C00DA90BB = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +116,7 @@
 				12FDDF4029DB0CF900DA90BB /* SupportFiles */,
 				12FDDF4129DB0D0B00DA90BB /* Resources */,
 				12FDDF4229DB0D1A00DA90BB /* Storyboards */,
+				12921A1929DC175B00FD61F8 /* Extensions */,
 				12FDDF3229DB0C4C00DA90BB /* Hammer.xcdatamodeld */,
 			);
 			path = Hammer;
@@ -313,6 +324,7 @@
 				12FDDF7229DB5E1900DA90BB /* MainRouter.swift in Sources */,
 				12FDDF5629DB122800DA90BB /* NetworkManager.swift in Sources */,
 				12FDDF5929DB1E3700DA90BB /* MainCellViewModel.swift in Sources */,
+				12921A1B29DC17B000FD61F8 /* Extension + Collection.swift in Sources */,
 				12FDDF5329DB116300DA90BB /* MainConfigurator.swift in Sources */,
 				12FDDF6029DB348A00DA90BB /* BannerCell.swift in Sources */,
 				12FDDF6C29DB59A800DA90BB /* CitiesInteractor.swift in Sources */,

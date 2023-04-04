@@ -28,8 +28,8 @@ final class CitiesPresenter: CitiesViewOutputProtocol {
     }
     
     func didTapCity(index: Int) {
-        let city = cities[index]
-        delegate?.getCinemaShedule(name: city.name ?? "", uuid: city.uuid ?? "")
+        let city = cities[safe: index]
+        delegate?.getCinemaShedule(name: city?.name ?? "", uuid: city?.uuid ?? "")
     }
     
 }
