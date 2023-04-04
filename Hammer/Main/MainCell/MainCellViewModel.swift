@@ -45,6 +45,6 @@ final class MainCellViewModel: MainCellIdentifiable {
         self.genre = movie.genre?.joined(separator: ", ") ?? ""
         self.ageLimitation = movie.ageLimit ?? ""
         self.imageURL = movie.images?.vertical ?? ""
-        self.duration = "Продолжительность: \(movie.duration ?? 0)"
+        self.duration = "Продолжительность: \(movie.duration ?? 0) минут"
     }
 }
