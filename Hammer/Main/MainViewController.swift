@@ -217,7 +217,7 @@ extension MainViewController: UICollectionViewDataSource, UICollectionViewDelega
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if collectionView == cinemasCollectionView {
             let sectionIndex = IndexPath(row: 0, section: indexPath.item)
-            print(sectionIndex)
+            
             mainTableView.scrollToRow(at: sectionIndex, at: .top, animated: true)
         }
     }
