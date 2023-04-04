@@ -7,25 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12921A1829DBF41A00FD61F8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 12921A1729DBF41A00FD61F8 /* Kingfisher */; };
 		12FDDF2A29DB0C4C00DA90BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF2929DB0C4C00DA90BB /* AppDelegate.swift */; };
-		12FDDF2C29DB0C4C00DA90BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF2B29DB0C4C00DA90BB /* SceneDelegate.swift */; };
-		12FDDF2E29DB0C4C00DA90BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF2D29DB0C4C00DA90BB /* ViewController.swift */; };
-		12FDDF3129DB0C4C00DA90BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FDDF2F29DB0C4C00DA90BB /* Main.storyboard */; };
 		12FDDF3429DB0C4C00DA90BB /* Hammer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF3229DB0C4C00DA90BB /* Hammer.xcdatamodeld */; };
 		12FDDF3629DB0C4E00DA90BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FDDF3529DB0C4E00DA90BB /* Assets.xcassets */; };
 		12FDDF3929DB0C4E00DA90BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FDDF3729DB0C4E00DA90BB /* LaunchScreen.storyboard */; };
+		12FDDF4529DB0DA400DA90BB /* Afisha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF4429DB0DA400DA90BB /* Afisha.swift */; };
+		12FDDF4829DB0E9100DA90BB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF4729DB0E9100DA90BB /* TabBarViewController.swift */; };
+		12FDDF4A29DB0ED500DA90BB /* TabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF4929DB0ED500DA90BB /* TabBarConfigurator.swift */; };
+		12FDDF4D29DB0FD700DA90BB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF4C29DB0FD700DA90BB /* MainViewController.swift */; };
+		12FDDF4F29DB10A800DA90BB /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF4E29DB10A800DA90BB /* MainInteractor.swift */; };
+		12FDDF5129DB10E000DA90BB /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF5029DB10E000DA90BB /* MainPresenter.swift */; };
+		12FDDF5329DB116300DA90BB /* MainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF5229DB116300DA90BB /* MainConfigurator.swift */; };
+		12FDDF5629DB122800DA90BB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF5529DB122800DA90BB /* NetworkManager.swift */; };
+		12FDDF5929DB1E3700DA90BB /* MainCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF5829DB1E3700DA90BB /* MainCellViewModel.swift */; };
+		12FDDF5B29DB20D800DA90BB /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF5A29DB20D800DA90BB /* MainCell.swift */; };
+		12FDDF5E29DB337600DA90BB /* BannerCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF5D29DB337600DA90BB /* BannerCellViewModel.swift */; };
+		12FDDF6029DB348A00DA90BB /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF5F29DB348A00DA90BB /* BannerCell.swift */; };
+		12FDDF6229DB38B300DA90BB /* BannerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF6129DB38B300DA90BB /* BannerImage.swift */; };
+		12FDDF6529DB48D900DA90BB /* CinemasCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF6429DB48D900DA90BB /* CinemasCellViewModel.swift */; };
+		12FDDF6729DB497400DA90BB /* CinemasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF6629DB497400DA90BB /* CinemasCell.swift */; };
+		12FDDF6A29DB593400DA90BB /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF6929DB593400DA90BB /* CitiesTableViewController.swift */; };
+		12FDDF6C29DB59A800DA90BB /* CitiesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF6B29DB59A800DA90BB /* CitiesInteractor.swift */; };
+		12FDDF6E29DB59B700DA90BB /* CitiesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF6D29DB59B700DA90BB /* CitiesPresenter.swift */; };
+		12FDDF7029DB59E000DA90BB /* CitiesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF6F29DB59E000DA90BB /* CitiesConfigurator.swift */; };
+		12FDDF7229DB5E1900DA90BB /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF7129DB5E1900DA90BB /* MainRouter.swift */; };
+		12FDDF7529DB60CE00DA90BB /* CitiesCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF7429DB60CE00DA90BB /* CitiesCellViewModel.swift */; };
+		12FDDF7729DB62A900DA90BB /* CitiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FDDF7629DB62A900DA90BB /* CitiesCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12FDDF2629DB0C4C00DA90BB /* Hammer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hammer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FDDF2929DB0C4C00DA90BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12FDDF2B29DB0C4C00DA90BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12FDDF2D29DB0C4C00DA90BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		12FDDF3029DB0C4C00DA90BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12FDDF3329DB0C4C00DA90BB /* Hammer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hammer.xcdatamodel; sourceTree = "<group>"; };
 		12FDDF3529DB0C4E00DA90BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12FDDF3829DB0C4E00DA90BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12FDDF3A29DB0C4E00DA90BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FDDF4429DB0DA400DA90BB /* Afisha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Afisha.swift; sourceTree = "<group>"; };
+		12FDDF4729DB0E9100DA90BB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		12FDDF4929DB0ED500DA90BB /* TabBarConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConfigurator.swift; sourceTree = "<group>"; };
+		12FDDF4C29DB0FD700DA90BB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		12FDDF4E29DB10A800DA90BB /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		12FDDF5029DB10E000DA90BB /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		12FDDF5229DB116300DA90BB /* MainConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainConfigurator.swift; sourceTree = "<group>"; };
+		12FDDF5529DB122800DA90BB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		12FDDF5829DB1E3700DA90BB /* MainCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellViewModel.swift; sourceTree = "<group>"; };
+		12FDDF5A29DB20D800DA90BB /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		12FDDF5D29DB337600DA90BB /* BannerCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCellViewModel.swift; sourceTree = "<group>"; };
+		12FDDF5F29DB348A00DA90BB /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		12FDDF6129DB38B300DA90BB /* BannerImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerImage.swift; sourceTree = "<group>"; };
+		12FDDF6429DB48D900DA90BB /* CinemasCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemasCellViewModel.swift; sourceTree = "<group>"; };
+		12FDDF6629DB497400DA90BB /* CinemasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemasCell.swift; sourceTree = "<group>"; };
+		12FDDF6929DB593400DA90BB /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		12FDDF6B29DB59A800DA90BB /* CitiesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesInteractor.swift; sourceTree = "<group>"; };
+		12FDDF6D29DB59B700DA90BB /* CitiesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesPresenter.swift; sourceTree = "<group>"; };
+		12FDDF6F29DB59E000DA90BB /* CitiesConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesConfigurator.swift; sourceTree = "<group>"; };
+		12FDDF7129DB5E1900DA90BB /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		12FDDF7429DB60CE00DA90BB /* CitiesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesCellViewModel.swift; sourceTree = "<group>"; };
+		12FDDF7629DB62A900DA90BB /* CitiesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12921A1829DBF41A00FD61F8 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +98,131 @@
 		12FDDF2829DB0C4C00DA90BB /* Hammer */ = {
 			isa = PBXGroup;
 			children = (
-				12FDDF2929DB0C4C00DA90BB /* AppDelegate.swift */,
-				12FDDF2B29DB0C4C00DA90BB /* SceneDelegate.swift */,
-				12FDDF2D29DB0C4C00DA90BB /* ViewController.swift */,
-				12FDDF2F29DB0C4C00DA90BB /* Main.storyboard */,
-				12FDDF3529DB0C4E00DA90BB /* Assets.xcassets */,
-				12FDDF3729DB0C4E00DA90BB /* LaunchScreen.storyboard */,
-				12FDDF3A29DB0C4E00DA90BB /* Info.plist */,
+				12FDDF6829DB58EA00DA90BB /* Cities */,
+				12FDDF5429DB120E00DA90BB /* Services */,
+				12FDDF4629DB0E4400DA90BB /* TabBar */,
+				12FDDF4B29DB0F9200DA90BB /* Main */,
+				12FDDF4329DB0D4100DA90BB /* Model */,
+				12FDDF4029DB0CF900DA90BB /* SupportFiles */,
+				12FDDF4129DB0D0B00DA90BB /* Resources */,
+				12FDDF4229DB0D1A00DA90BB /* Storyboards */,
 				12FDDF3229DB0C4C00DA90BB /* Hammer.xcdatamodeld */,
 			);
 			path = Hammer;
+			sourceTree = "<group>";
+		};
+		12FDDF4029DB0CF900DA90BB /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				12FDDF2929DB0C4C00DA90BB /* AppDelegate.swift */,
+				12FDDF3A29DB0C4E00DA90BB /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		12FDDF4129DB0D0B00DA90BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12FDDF3529DB0C4E00DA90BB /* Assets.xcassets */,
+				12FDDF6129DB38B300DA90BB /* BannerImage.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		12FDDF4229DB0D1A00DA90BB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				12FDDF3729DB0C4E00DA90BB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		12FDDF4329DB0D4100DA90BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12FDDF4429DB0DA400DA90BB /* Afisha.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12FDDF4629DB0E4400DA90BB /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				12FDDF4729DB0E9100DA90BB /* TabBarViewController.swift */,
+				12FDDF4929DB0ED500DA90BB /* TabBarConfigurator.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		12FDDF4B29DB0F9200DA90BB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				12FDDF6329DB48B600DA90BB /* CinemasCell */,
+				12FDDF5C29DB334F00DA90BB /* BannerCell */,
+				12FDDF5729DB1E1200DA90BB /* MainCell */,
+				12FDDF4C29DB0FD700DA90BB /* MainViewController.swift */,
+				12FDDF4E29DB10A800DA90BB /* MainInteractor.swift */,
+				12FDDF5029DB10E000DA90BB /* MainPresenter.swift */,
+				12FDDF7129DB5E1900DA90BB /* MainRouter.swift */,
+				12FDDF5229DB116300DA90BB /* MainConfigurator.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		12FDDF5429DB120E00DA90BB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				12FDDF5529DB122800DA90BB /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		12FDDF5729DB1E1200DA90BB /* MainCell */ = {
+			isa = PBXGroup;
+			children = (
+				12FDDF5829DB1E3700DA90BB /* MainCellViewModel.swift */,
+				12FDDF5A29DB20D800DA90BB /* MainCell.swift */,
+			);
+			path = MainCell;
+			sourceTree = "<group>";
+		};
+		12FDDF5C29DB334F00DA90BB /* BannerCell */ = {
+			isa = PBXGroup;
+			children = (
+				12FDDF5D29DB337600DA90BB /* BannerCellViewModel.swift */,
+				12FDDF5F29DB348A00DA90BB /* BannerCell.swift */,
+			);
+			path = BannerCell;
+			sourceTree = "<group>";
+		};
+		12FDDF6329DB48B600DA90BB /* CinemasCell */ = {
+			isa = PBXGroup;
+			children = (
+				12FDDF6429DB48D900DA90BB /* CinemasCellViewModel.swift */,
+				12FDDF6629DB497400DA90BB /* CinemasCell.swift */,
+			);
+			path = CinemasCell;
+			sourceTree = "<group>";
+		};
+		12FDDF6829DB58EA00DA90BB /* Cities */ = {
+			isa = PBXGroup;
+			children = (
+				12FDDF7329DB60B900DA90BB /* CitiesCell */,
+				12FDDF6929DB593400DA90BB /* CitiesTableViewController.swift */,
+				12FDDF6B29DB59A800DA90BB /* CitiesInteractor.swift */,
+				12FDDF6D29DB59B700DA90BB /* CitiesPresenter.swift */,
+				12FDDF6F29DB59E000DA90BB /* CitiesConfigurator.swift */,
+			);
+			path = Cities;
+			sourceTree = "<group>";
+		};
+		12FDDF7329DB60B900DA90BB /* CitiesCell */ = {
+			isa = PBXGroup;
+			children = (
+				12FDDF7429DB60CE00DA90BB /* CitiesCellViewModel.swift */,
+				12FDDF7629DB62A900DA90BB /* CitiesCell.swift */,
+			);
+			path = CitiesCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +241,9 @@
 			dependencies = (
 			);
 			name = Hammer;
+			packageProductDependencies = (
+				12921A1729DBF41A00FD61F8 /* Kingfisher */,
+			);
 			productName = Hammer;
 			productReference = 12FDDF2629DB0C4C00DA90BB /* Hammer.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +272,9 @@
 				Base,
 			);
 			mainGroup = 12FDDF1D29DB0C4C00DA90BB;
+			packageReferences = (
+				12921A1629DBF41A00FD61F8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 12FDDF2729DB0C4C00DA90BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +291,6 @@
 			files = (
 				12FDDF3929DB0C4E00DA90BB /* LaunchScreen.storyboard in Resources */,
 				12FDDF3629DB0C4E00DA90BB /* Assets.xcassets in Resources */,
-				12FDDF3129DB0C4C00DA90BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +301,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12FDDF2E29DB0C4C00DA90BB /* ViewController.swift in Sources */,
+				12FDDF4829DB0E9100DA90BB /* TabBarViewController.swift in Sources */,
+				12FDDF6529DB48D900DA90BB /* CinemasCellViewModel.swift in Sources */,
+				12FDDF6A29DB593400DA90BB /* CitiesTableViewController.swift in Sources */,
+				12FDDF6729DB497400DA90BB /* CinemasCell.swift in Sources */,
+				12FDDF5E29DB337600DA90BB /* BannerCellViewModel.swift in Sources */,
+				12FDDF6E29DB59B700DA90BB /* CitiesPresenter.swift in Sources */,
+				12FDDF4A29DB0ED500DA90BB /* TabBarConfigurator.swift in Sources */,
+				12FDDF5B29DB20D800DA90BB /* MainCell.swift in Sources */,
+				12FDDF7029DB59E000DA90BB /* CitiesConfigurator.swift in Sources */,
+				12FDDF7229DB5E1900DA90BB /* MainRouter.swift in Sources */,
+				12FDDF5629DB122800DA90BB /* NetworkManager.swift in Sources */,
+				12FDDF5929DB1E3700DA90BB /* MainCellViewModel.swift in Sources */,
+				12FDDF5329DB116300DA90BB /* MainConfigurator.swift in Sources */,
+				12FDDF6029DB348A00DA90BB /* BannerCell.swift in Sources */,
+				12FDDF6C29DB59A800DA90BB /* CitiesInteractor.swift in Sources */,
+				12FDDF6229DB38B300DA90BB /* BannerImage.swift in Sources */,
 				12FDDF3429DB0C4C00DA90BB /* Hammer.xcdatamodeld in Sources */,
+				12FDDF5129DB10E000DA90BB /* MainPresenter.swift in Sources */,
+				12FDDF4D29DB0FD700DA90BB /* MainViewController.swift in Sources */,
 				12FDDF2A29DB0C4C00DA90BB /* AppDelegate.swift in Sources */,
-				12FDDF2C29DB0C4C00DA90BB /* SceneDelegate.swift in Sources */,
+				12FDDF7729DB62A900DA90BB /* CitiesCell.swift in Sources */,
+				12FDDF4F29DB10A800DA90BB /* MainInteractor.swift in Sources */,
+				12FDDF4529DB0DA400DA90BB /* Afisha.swift in Sources */,
+				12FDDF7529DB60CE00DA90BB /* CitiesCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		12FDDF2F29DB0C4C00DA90BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12FDDF3029DB0C4C00DA90BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		12FDDF3729DB0C4E00DA90BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,12 +465,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J8Z93HAU9N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Hammer/Info.plist;
+				INFOPLIST_FILE = Hammer/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +478,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.BodikovKuat.Hammer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,12 +496,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J8Z93HAU9N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Hammer/Info.plist;
+				INFOPLIST_FILE = Hammer/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +509,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.BodikovKuat.Hammer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -362,6 +540,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		12921A1629DBF41A00FD61F8 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12921A1729DBF41A00FD61F8 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12921A1629DBF41A00FD61F8 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		12FDDF3229DB0C4C00DA90BB /* Hammer.xcdatamodeld */ = {
